@@ -39,14 +39,9 @@ class TranslateWrapper extends React.Component{
         }
     }
 
-    clickety = ()=>{
-        console.log('clicked')
-        this.forceUpdate()
-    }
-
     render(){
         return(
-            <div onClick={this.clickety}>
+            <div>
                 {this.props.children}
             </div>
         )
