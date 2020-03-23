@@ -1,0 +1,7 @@
+version: 2.1
+orbs:
+  deepcode: arrai/deepcode@1.0.0
+workflows:
+  dc-workflow:
+    jobs:
+      - deepcode/deepcode
